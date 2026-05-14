@@ -25,7 +25,7 @@
     --warning-soft: #fed7aa;
     --danger: #dc2626;
     --danger-soft: #fee2e2;
-
+ 
     --role-1: #2563eb;
     --role-2: #dc2626;
     --role-3: #7c3aed;
@@ -42,7 +42,7 @@
     color: var(--text); line-height: 1.6; padding: 24px; min-height: 100vh;
   }
   .container { max-width: 1500px; margin: 0 auto; }
-
+ 
   header {
     background: linear-gradient(135deg, #0f172a 0%, #4338ca 100%);
     color: white; padding: 28px 32px; border-radius: 16px; margin-bottom: 20px;
@@ -58,7 +58,7 @@
     border: 1px solid rgba(255,255,255,0.2);
   }
   header .legend b { font-weight: 700; }
-
+ 
   .tabs {
     display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px;
     background: white; padding: 8px; border-radius: 12px;
@@ -79,7 +79,7 @@
     background: var(--accent-soft); color: var(--accent); font-weight: 700;
   }
   .tab.special.active { background: var(--accent); color: white; }
-
+ 
   .filters {
     background: white; padding: 14px 18px; border-radius: 12px;
     margin-bottom: 18px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
@@ -99,7 +99,7 @@
     border-radius: 6px; font-size: 12px; cursor: pointer; color: var(--text-soft); font-weight: 600;
   }
   .reset-btn:hover { background: var(--danger-soft); color: var(--danger); }
-
+ 
   .role-legend {
     background: white; padding: 12px 18px; border-radius: 12px;
     margin-bottom: 18px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
@@ -118,10 +118,10 @@
   .role-r6 { background: var(--role-6); }
   .role-out { background: var(--role-out); }
   .role-mgmt { background: var(--role-mgmt); }
-
+ 
   .fc-panel { display: none; }
   .fc-panel.active { display: block; }
-
+ 
   .fc-header {
     background: white; padding: 22px 26px; border-radius: 12px; margin-bottom: 18px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -147,7 +147,7 @@
   .meta-pill.kpi {
     background: var(--warning-soft); color: var(--warning); border-color: var(--warning);
   }
-
+ 
   .section {
     background: white; padding: 22px; border-radius: 12px; margin-bottom: 18px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -162,7 +162,7 @@
   .section-title small {
     font-size: 12px; font-weight: 400; color: var(--text-muted); margin-left: auto;
   }
-
+ 
   .om-flow {
     display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px;
   }
@@ -199,7 +199,7 @@
   .om-arrow {
     align-self: center; color: var(--text-muted); font-size: 22px; flex-shrink: 0;
   }
-
+ 
   .om-block {
     border: 1px solid var(--border); border-radius: 10px;
     margin-bottom: 14px; overflow: hidden;
@@ -247,7 +247,7 @@
   .ipo-i { background: var(--brand-soft); color: var(--brand); }
   .ipo-p { background: var(--accent-soft); color: var(--accent); }
   .ipo-o { background: var(--success-soft); color: var(--success); }
-
+ 
   .scope-tag {
     display: inline-block; font-size: 10px; font-weight: 700;
     padding: 2px 7px; border-radius: 10px; margin-right: 6px;
@@ -255,7 +255,7 @@
   }
   .scope-dcom { background: var(--success-soft); color: var(--success); border: 1px solid var(--success); }
   .scope-ext { background: var(--surface-3); color: var(--text-soft); border: 1px dashed var(--border-strong); }
-
+ 
   .role-badge {
     display: inline-flex; align-items: center; gap: 4px;
     padding: 3px 8px; border-radius: 12px; color: white;
@@ -266,7 +266,7 @@
     background: var(--surface-3); color: var(--text-soft); border: 1px dashed var(--border-strong);
     font-size: 10px; margin: 2px 4px 0 0;
   }
-
+ 
   .cadence-tag {
     display: inline-block; font-size: 10px; font-weight: 600;
     padding: 2px 7px; border-radius: 10px;
@@ -276,7 +276,7 @@
   .cd-monthly { background: var(--brand-soft); color: var(--brand); }
   .cd-event { background: var(--accent-soft); color: var(--accent); }
   .cd-quarterly { background: var(--success-soft); color: var(--success); }
-
+ 
   .soa-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 14px;
@@ -313,7 +313,7 @@
   .soa-card li small {
     display: block; color: var(--text-muted); font-size: 10px; margin-top: 2px;
   }
-
+ 
   /* Headcount tab */
   .hc-summary {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -326,7 +326,7 @@
   .hc-card .hc-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
   .hc-card .hc-num { font-size: 36px; font-weight: 700; color: var(--brand); margin: 4px 0; }
   .hc-card .hc-detail { font-size: 12px; color: var(--text-soft); }
-
+ 
   .hc-table { width: 100%; border-collapse: collapse; font-size: 13px; background: white; border-radius: 10px; overflow: hidden; }
   .hc-table th { background: var(--surface-3); padding: 12px; text-align: left; font-size: 11px; }
   .hc-table td { padding: 14px 12px; vertical-align: middle; border-bottom: 1px solid var(--border); }
@@ -345,7 +345,7 @@
   }
   .layer-group { background: var(--accent); color: white; }
   .layer-lob { background: var(--brand); color: white; }
-
+ 
   .span-tag {
     display: inline-block; padding: 2px 7px; border-radius: 4px;
     font-size: 10px; font-weight: 700; color: white;
@@ -354,7 +354,7 @@
   .span-s2 { background: #3b82f6; }
   .span-s3 { background: #7c3aed; }
   .span-s4 { background: #db2777; }
-
+ 
   @media print {
     body { background: white; padding: 0; }
     .tabs, .filters { display: none; }
@@ -364,7 +364,7 @@
 </head>
 <body>
 <div class="container">
-
+ 
 <header>
   <h1>FC Design — Team Dcom (Digital Marketing)</h1>
   <p class="sub">Thiết kế Functional Chain theo framework dWORK · OD → OM → FC · 1 OD = 1 role own · IPO đầy đủ · gắn SOA</p>
@@ -376,7 +376,7 @@
     <span><b>SOA</b> Sphere of Accountability</span>
   </div>
 </header>
-
+ 
 <div class="role-legend">
   <b style="font-size: 12px; color: var(--text-soft); margin-right: 4px;">ROLE TEAM DCOM:</b>
   <span class="role-chip role-r1">R1 · CV QT Nền tảng số</span>
@@ -388,7 +388,7 @@
   <span class="role-chip role-mgmt">TLD · Team Lead Digital</span>
   <span class="role-chip role-out">EXT · Role ngoài Dcom</span>
 </div>
-
+ 
 <div class="tabs" id="tabs">
   <div class="tab active" data-fc="overview">Tổng quan</div>
   <div class="tab" data-fc="soa">SOA theo Role</div>
@@ -400,7 +400,7 @@
   <div class="tab" data-fc="fc6">FC-DC-06 · Satellite Channel</div>
   <div class="tab special" data-fc="headcount">Headcount cho 3 LOB</div>
 </div>
-
+ 
 <div class="filters" id="filters-bar">
   <div class="filter-group">
     <label>Lọc Role:</label>
@@ -438,11 +438,11 @@
   </div>
   <button class="reset-btn" onclick="resetFilters()">Xoá bộ lọc</button>
 </div>
-
+ 
 <div id="panels"></div>
-
+ 
 </div>
-
+ 
 <script>
 // ============================================================================
 // ROLE DEFINITIONS (cập nhật tên chính thức)
@@ -468,19 +468,19 @@ const ROLES = {
   VND: { name: 'Vendor công nghệ (CRM/CDP/automation tool)', color: 'var(--role-out)', cls: 'role-out', short: 'Vendor', external: true },
   PRD: { name: 'Product team', color: 'var(--role-out)', cls: 'role-out', short: 'Product', external: true }
 };
-
+ 
 // ============================================================================
 // FC DATA — Đầy đủ OD bao gồm Dcom + ngoài Dcom
 // OD ngoài Dcom có IPO ngắn gọn (theo yêu cầu user)
 // ============================================================================
 const FCS = {
-
+ 
   fc1: {
     code: 'FC-DC-01',
     name: 'Owned Platform Operations',
     purpose: 'Vận hành ổn định và liên tục cải tiến các nền tảng số sở hữu (website, landing page, app touchpoint, CMS, social channel chính) — đảm bảo nội dung chính xác, dữ liệu đo lường tin cậy, UX tối ưu.',
     own: 'Team Dcom chủ trì',
-    kpi: 'Uptime ≥ 99.5% · Page-load < 3s · CR landing ≥ benchmark · 0 sự cố P1 lặp lại',
+    kpi: 'Uptime ≥ 99.5% · Page-load < 3s · CR landing ≥ benchmark · Organic traffic tăng trưởng QoQ · Keyword ranking top 10 · 0 sự cố P1 lặp lại',
     crossTeam: 'Tech/DevOps, Brand/Content, Design, Legal',
     oms: [
       {
@@ -515,11 +515,16 @@ const FCS = {
             process: '1. Verify yêu cầu hợp lệ · 2. Cấp quyền role-based · 3. Log audit · 4. Review định kỳ',
             output: 'User access matrix cập nhật · Audit log · Báo cáo compliance',
             cadence: 'monthly' },
-          { code: 'OD-01.2.3', name: 'Sản xuất & cung cấp nội dung/copy cho nền tảng', owner: 'BRD', external: true,
+          { code: 'OD-01.2.3', name: 'Build landing page chiến dịch trên nền tảng có sẵn', owner: 'R1',
+            input: 'Campaign brief từ Marcom · asset từ Brand/Design · tracking spec từ R4',
+            process: '1. Setup template · 2. Inject nội dung & CTA · 3. Cài tracking · 4. QA toàn bộ touchpoint · 5. Publish',
+            output: 'Landing page live · Tracking verified · Bàn giao link cho Performance',
+            cadence: 'event' },
+          { code: 'OD-01.2.4', name: 'Sản xuất & cung cấp nội dung/copy cho nền tảng', owner: 'BRD', external: true,
             input: 'Editorial calendar · brief campaign · brand guideline',
             output: 'Bài viết/copy cho nền tảng · Banner content brief · Asset bàn giao',
             cadence: 'weekly' },
-          { code: 'OD-01.2.4', name: 'Thiết kế asset visual cho nền tảng', owner: 'DSG', external: true,
+          { code: 'OD-01.2.5', name: 'Thiết kế asset visual cho nền tảng', owner: 'DSG', external: true,
             input: 'Brief design · brand guideline · spec kỹ thuật từ R1',
             output: 'Banner/visual đúng spec · File source · Asset library cập nhật',
             cadence: 'weekly' }
@@ -545,19 +550,53 @@ const FCS = {
         ]
       },
       {
-        code: 'OM-DC-01.4', name: 'Campaign Support & Reporting',
+        code: 'OM-DC-01.4', name: 'SEO Optimization',
         ods: [
-          { code: 'OD-01.4.1', name: 'Build landing page chiến dịch trên nền tảng có sẵn', owner: 'R1',
-            input: 'Campaign brief từ Marcom · asset từ Brand/Design · tracking spec từ R4',
-            process: '1. Setup template · 2. Inject nội dung & CTA · 3. Cài tracking · 4. QA · 5. Publish',
-            output: 'Landing page live · Tracking verified · Bàn giao cho Performance',
-            cadence: 'event' },
-          { code: 'OD-01.4.2', name: 'Báo cáo vận hành nền tảng định kỳ', owner: 'R1',
-            input: 'Health log · sự cố log · UX insight · campaign result',
-            process: '1. Aggregate dữ liệu tháng · 2. Highlight wins/issues · 3. Đề xuất cải tiến quý · 4. Trình Team Lead',
+          { code: 'OD-01.4.1', name: 'Thực hiện SEO audit định kỳ cho hệ thống website', owner: 'R1',
+            input: 'Website hiện tại · audit checklist (200+ điểm) · benchmark đối thủ · Search Console/Ahrefs/SEMrush data',
+            process: '1. Crawl toàn site · 2. Phân tích technical issue (crawlability/indexability/speed) · 3. Phân tích on-page (meta/heading/internal link) · 4. So sánh đối thủ · 5. Phân loại issue P1-P3',
+            output: 'SEO audit report đầy đủ · Issue backlog priority · Roadmap fix 90 ngày',
+            cadence: 'quarterly' },
+          { code: 'OD-01.4.2', name: 'Tối ưu on-page SEO cho các trang mới/cập nhật', owner: 'R1',
+            input: 'Trang mới/sửa từ CMS · keyword target từ Content brief · on-page checklist',
+            process: '1. Optimize title/meta/heading · 2. Tối ưu URL structure · 3. Internal linking · 4. Image alt + schema · 5. QA bằng SEO tool',
+            output: 'Trang đã tối ưu live · On-page checklist signed · Submit URL tới Search Console',
+            cadence: 'weekly' },
+          { code: 'OD-01.4.3', name: 'Xử lý technical SEO issue (crawl, index, speed, schema)', owner: 'R1',
+            input: 'Issue từ audit/Search Console · spec kỹ thuật platform · log lỗi crawl',
+            process: '1. Triage issue · 2. Fix trực tiếp (sitemap/robots/redirect/schema) · 3. Phối hợp Tech cho fix sâu · 4. Verify trên Search Console',
+            output: 'Technical issue đóng · Validation report · Documentation fix',
+            cadence: 'monthly' },
+          { code: 'OD-01.4.4', name: 'Cung cấp SEO brief & keyword target cho Content',
+            owner: 'R1',
+            input: 'Editorial calendar từ Brand/Content · keyword research · search intent analysis',
+            process: '1. Keyword research theo topic cluster · 2. Search intent mapping · 3. Viết SEO brief (target keyword/competitor/structure) · 4. Bàn giao Content',
+            output: 'SEO brief per content piece · Target keyword list · Content gap recommendation',
+            cadence: 'weekly' },
+          { code: 'OD-01.4.5', name: 'Sản xuất nội dung tối ưu SEO theo brief', owner: 'BRD', external: true,
+            input: 'SEO brief từ R1 · brand voice · target keyword',
+            output: 'Bài viết SEO-optimized · Đáp ứng đủ on-page requirement · Bàn giao R1 publish',
+            cadence: 'weekly' },
+          { code: 'OD-01.4.6', name: 'Hỗ trợ fix technical SEO ở tầng hạ tầng', owner: 'TECH', external: true,
+            input: 'Ticket technical từ R1 · spec hạ tầng · environment',
+            output: 'Fix server-side (redirect/CDN/render) · Schema implementation · Performance optimization',
+            cadence: 'event' }
+        ]
+      },
+      {
+        code: 'OM-DC-01.5', name: 'Measurement & Reporting',
+        ods: [
+          { code: 'OD-01.5.1', name: 'Theo dõi SLA & cam kết vận hành nền tảng', owner: 'R1',
+            input: 'SLA matrix nền tảng · log uptime/incident · ticket resolution time',
+            process: '1. Pull metric SLA hằng tuần (uptime/response/resolution) · 2. So sánh vs cam kết · 3. Identify breach · 4. Đề xuất action prevent · 5. Log SLA dashboard',
+            output: 'Weekly SLA dashboard · Breach alert · Action plan prevent breach lặp lại',
+            cadence: 'weekly' },
+          { code: 'OD-01.5.2', name: 'Báo cáo vận hành nền tảng định kỳ', owner: 'R1',
+            input: 'Health log · sự cố log · UX insight · campaign result · SEO performance · SLA data',
+            process: '1. Aggregate dữ liệu tháng · 2. Highlight wins/issues · 3. Phân tích trend · 4. Đề xuất cải tiến quý · 5. Trình Team Lead',
             output: 'Monthly platform ops report · Backlog cải tiến · Slide review',
             cadence: 'monthly' },
-          { code: 'OD-01.4.3', name: 'Phê duyệt báo cáo & ưu tiên backlog cải tiến', owner: 'TLD', external: false,
+          { code: 'OD-01.5.3', name: 'Phê duyệt báo cáo & ưu tiên backlog cải tiến', owner: 'TLD',
             input: 'Monthly report từ R1 · OKR khối · capacity team',
             process: '1. Review report · 2. Validate insight · 3. Prioritize backlog · 4. Trình Marcom Lead',
             output: 'Phê duyệt backlog · Trình lên Marcom · Quyết định resource',
@@ -566,7 +605,7 @@ const FCS = {
       }
     ]
   },
-
+ 
   fc2: {
     code: 'FC-DC-02',
     name: 'Paid Media & Performance Marketing',
@@ -652,7 +691,7 @@ const FCS = {
       }
     ]
   },
-
+ 
   fc3: {
     code: 'FC-DC-03',
     name: 'Digital Touchpoint Build & Optimization',
@@ -748,7 +787,7 @@ const FCS = {
       }
     ]
   },
-
+ 
   fc4: {
     code: 'FC-DC-04',
     name: 'Digital Analytics & Insight',
@@ -831,7 +870,7 @@ const FCS = {
       }
     ]
   },
-
+ 
   fc5: {
     code: 'FC-DC-05',
     name: 'MarTech Stack Operations',
@@ -904,13 +943,13 @@ const FCS = {
       }
     ]
   },
-
+ 
   fc6: {
     code: 'FC-DC-06',
-    name: 'Satellite Channel Growth',
-    purpose: 'Mở rộng độ phủ thương hiệu và tạo thêm nguồn traffic/lead/chuyển đổi qua các kênh vệ tinh (cộng đồng, group, forum, KOC/KOL, affiliate, publisher, marketplace nội dung).',
+    name: 'Satellite Channel & Inbound Growth',
+    purpose: 'Mở rộng độ phủ thương hiệu và tạo thêm nguồn traffic/lead/chuyển đổi qua các kênh vệ tinh (cộng đồng, forum, KOC/KOL, affiliate, publisher) và Inbound Marketing (content magnet, gated asset, content nurturing) để thu hút khách hàng chủ động tìm đến.',
     own: 'Team Dcom chủ trì',
-    kpi: 'Số kênh active đúng plan · Tăng trưởng reach/follower · Lead từ satellite · CPL ≤ benchmark · 0 rủi ro thương hiệu nghiêm trọng',
+    kpi: 'Số kênh active đúng plan · Tăng trưởng reach/follower · Lead từ satellite + Inbound · CPL ≤ benchmark · Lead nurturing-to-MQL rate · 0 rủi ro thương hiệu nghiêm trọng',
     crossTeam: 'Brand/Content, Design, Legal, Sales, Agency, CS',
     oms: [
       {
@@ -934,39 +973,64 @@ const FCS = {
         ]
       },
       {
-        code: 'OM-DC-06.2', name: 'Content & Partnership Operations',
+        code: 'OM-DC-06.2', name: 'Content Distribution & Inbound Operations',
         ods: [
           { code: 'OD-06.2.1', name: 'Lên lịch & đăng tải nội dung trên kênh vệ tinh', owner: 'R6',
             input: 'Content calendar · asset từ Brand/Design · trend cộng đồng',
             process: '1. Adapt content theo kênh · 2. Schedule post · 3. Monitor engagement · 4. Reply/seeding · 5. Log result',
             output: 'Post live đúng lịch · Engagement log · Highlight feedback',
             cadence: 'daily' },
-          { code: 'OD-06.2.2', name: 'Phát triển & duy trì quan hệ đối tác KOC/community admin', owner: 'R6',
+          { code: 'OD-06.2.2', name: 'Vận hành Inbound content magnet & gated asset', owner: 'R6',
+            input: 'Customer persona · content strategy · keyword Inbound · asset pool (ebook/whitepaper/webinar/template)',
+            process: '1. Map content magnet theo funnel stage (TOFU/MOFU/BOFU) · 2. Setup gated landing page · 3. Quảng bá trên kênh vệ tinh · 4. Track download/lead · 5. Iterate',
+            output: 'Inbound asset live · Download/lead tracked · Performance per asset',
+            cadence: 'weekly' },
+          { code: 'OD-06.2.3', name: 'Vận hành content nurturing journey cho lead Inbound', owner: 'R6',
+            input: 'Lead từ Inbound · segment criteria · email/SMS nurturing template từ R3',
+            process: '1. Map nurturing journey theo persona · 2. Setup trigger trong automation · 3. Monitor open/click/conversion · 4. A/B test nội dung · 5. Tối ưu touch',
+            output: 'Nurturing journey live · Lead progression report · Tối ưu memo',
+            cadence: 'weekly' },
+          { code: 'OD-06.2.4', name: 'Thiết kế funnel dẫn traffic từ kênh vệ tinh về kênh chính', owner: 'R6',
+            input: 'Touchpoint chính (web/LP/form) · UTM convention · CTA brief',
+            process: '1. Map funnel theo kênh · 2. Tạo UTM & landing chuyên biệt nếu cần · 3. Cài tracking · 4. Test end-to-end',
+            output: 'Funnel doc · UTM list · Landing page chuyên biệt (nếu có)',
+            cadence: 'event' },
+          { code: 'OD-06.2.5', name: 'Cộng đồng & community management trên kênh vệ tinh', owner: 'R6',
+            input: 'Comment/inbox/discussion từ cộng đồng · community guideline · escalation matrix',
+            process: '1. Monitor comment hằng ngày · 2. Reply theo tone of voice · 3. Identify topic hot · 4. Escalate nếu cần · 5. Tổng hợp insight',
+            output: 'Community response log · Insight cộng đồng · Topic hot báo cáo R4',
+            cadence: 'daily' },
+          { code: 'OD-06.2.6', name: 'Sản xuất content adapt cho từng kênh vệ tinh & Inbound asset', owner: 'BRD', external: true,
+            input: 'Content calendar · brand voice · spec format kênh · Inbound brief',
+            output: 'Content variant theo kênh · Inbound asset (ebook/whitepaper) · Copy ready-to-post',
+            cadence: 'weekly' }
+        ]
+      },
+      {
+        code: 'OM-DC-06.3', name: 'Partnership & Influencer Management',
+        ods: [
+          { code: 'OD-06.3.1', name: 'Phát triển & duy trì quan hệ đối tác KOC/community admin', owner: 'R6',
             input: 'Partner shortlist · template hợp đồng · budget hợp tác',
             process: '1. Outreach & negotiate · 2. Ký hợp đồng · 3. Brief & monitor · 4. Đánh giá hiệu quả',
             output: 'Partner list active · Hợp đồng signed · Performance review per partner',
             cadence: 'weekly' },
-          { code: 'OD-06.2.3', name: 'Sản xuất content adapt cho từng kênh vệ tinh', owner: 'BRD', external: true,
-            input: 'Content calendar · brand voice · spec format kênh',
-            output: 'Content variant theo kênh · Asset adapt · Copy ready-to-post',
+          { code: 'OD-06.3.2', name: 'Quản lý affiliate & publisher network', owner: 'R6',
+            input: 'Affiliate platform · commission policy · tracking link · partner list',
+            process: '1. Onboarding affiliate · 2. Cung cấp asset & link · 3. Monitor conversion · 4. Tính commission · 5. Pay-out',
+            output: 'Affiliate active · Commission report · Top performer list',
             cadence: 'weekly' },
-          { code: 'OD-06.2.4', name: 'Vận hành chiến dịch KOC/influencer qua Agency', owner: 'AGY', external: true,
+          { code: 'OD-06.3.3', name: 'Brief & nghiệm thu sản phẩm KOC/KOL', owner: 'R6',
+            input: 'Booking KOC · campaign brief · brand guideline · sample content',
+            process: '1. Brief KOC chi tiết · 2. Review content trước đăng · 3. Approve/feedback · 4. Verify post live · 5. Đánh giá engagement',
+            output: 'Content KOC đã nghiệm thu · Post live verified · Performance per booking',
+            cadence: 'weekly' },
+          { code: 'OD-06.3.4', name: 'Vận hành chiến dịch KOC/influencer qua Agency', owner: 'AGY', external: true,
             input: 'Brief campaign · target KOC · ngân sách',
             output: 'KOC delivery · Performance report · Booking confirmation',
             cadence: 'weekly' },
-          { code: 'OD-06.2.5', name: 'Review pháp lý hợp đồng KOC/affiliate', owner: 'LEG', external: true,
+          { code: 'OD-06.3.5', name: 'Review pháp lý hợp đồng KOC/affiliate', owner: 'LEG', external: true,
             input: 'Template hợp đồng · regulation · case rủi ro',
             output: 'Hợp đồng đã review · Clause bảo vệ thương hiệu · Risk flag',
-            cadence: 'event' }
-        ]
-      },
-      {
-        code: 'OM-DC-06.3', name: 'Traffic Routing & Conversion',
-        ods: [
-          { code: 'OD-06.3.1', name: 'Thiết kế funnel dẫn traffic từ kênh vệ tinh về kênh chính', owner: 'R6',
-            input: 'Touchpoint chính (web/LP/form) · UTM convention · CTA brief',
-            process: '1. Map funnel theo kênh · 2. Tạo UTM & landing chuyên biệt nếu cần · 3. Cài tracking · 4. Test end-to-end',
-            output: 'Funnel doc · UTM list · Landing page chuyên biệt (nếu có)',
             cadence: 'event' }
         ]
       },
@@ -997,7 +1061,7 @@ const FCS = {
     ]
   }
 };
-
+ 
 // ============================================================================
 // HEADCOUNT DATA — Mô hình Hybrid (Group + LOB Specialist) cho 3 LOB
 // ============================================================================
@@ -1027,58 +1091,58 @@ const HEADCOUNT = {
       cadenceMix: 'Daily review · Weekly report · Quarterly planning',
       min: 1, standard: 1, ideal: 1,
       note: 'Mỗi LOB có thể có 1 Lead riêng nếu quy mô lớn — model này tập trung 1 Lead cho Group' },
-
+ 
     { code: 'R5', layer: 'group', name: 'CV QT & Vận hành Công cụ số',
       span: 'S3', spanLabel: 'Mastering',
       odCount: '8 OD (cross 3 LOB)',
       cadenceMix: '50% daily · 30% weekly · 20% monthly+',
       min: 1, standard: 2, ideal: 3,
       note: 'Tập trung tại Group vì tool dùng chung 3 LOB · S3 vì cross-FD' },
-
+ 
     { code: 'R4', layer: 'group', name: 'CV Phân tích Dữ liệu số',
       span: 'S3', spanLabel: 'Mastering',
       odCount: '9 OD (cross 3 LOB + group reporting)',
       cadenceMix: '40% daily · 40% weekly · 20% deep-dive',
       min: 1, standard: 2, ideal: 3,
       note: 'Group ownership data dictionary · LOB-specific deep-dive có thể phân chia theo người' },
-
+ 
     { code: 'R1-G', layer: 'group', name: 'CV QT Nền tảng số (Group platforms)',
       span: 'S3', spanLabel: 'Mastering',
-      odCount: '11 OD (corp website + DAM + shared platforms)',
-      cadenceMix: '60% daily · 25% weekly · 15% monthly',
+      odCount: '13 OD (platforms + SEO + reporting)',
+      cadenceMix: '50% daily · 25% weekly · 25% monthly+',
       min: 1, standard: 1, ideal: 2,
-      note: 'Quản lý các nền tảng chung tập đoàn (corp website, DAM, MarTech platforms)' },
-
+      note: 'Quản lý nền tảng chung + SEO chiến lược toàn tập đoàn (corp website, DAM, MarTech)' },
+ 
     // LOB LAYER (chuyên trách theo từng LOB)
     { code: 'R1-L', layer: 'lob', name: 'CV QT Nền tảng số (LOB)',
-      span: 'S2', spanLabel: 'Practicing',
-      odCount: '11 OD per LOB (LOB-specific website/app/CMS)',
-      cadenceMix: '60% daily · 30% weekly · 10% campaign',
+      span: 'S2-S3', spanLabel: 'Practicing/Mastering',
+      odCount: '13 OD per LOB (platforms + on-page SEO + technical SEO)',
+      cadenceMix: '50% daily · 30% weekly · 20% monthly+',
       min: 0, standard: 3, ideal: 3,
-      note: 'Min: dùng chung R1-Group · Standard/Ideal: 1 người per LOB (×3)' },
-
+      note: 'Min: dùng chung R1-Group · Standard/Ideal: 1 người per LOB (×3) · Đã bao gồm SEO on-page + technical' },
+ 
     { code: 'R2', layer: 'lob', name: 'CV Vận hành Quảng cáo / Performance',
       span: 'S2-S3', spanLabel: 'Practicing/Mastering',
       odCount: '8 OD per LOB',
       cadenceMix: '70% daily · 20% weekly · 10% event',
       min: 3, standard: 3, ideal: 6,
       note: 'Daily-heavy nên cần 1 người per LOB · Ideal: 2 người/LOB (1 senior + 1 junior) · Có thể outsource 1 phần qua Agency' },
-
+ 
     { code: 'R3', layer: 'lob', name: 'CV Xây dựng Điểm chạm số',
       span: 'S2-S3', spanLabel: 'Practicing/Mastering',
       odCount: '10 OD per LOB',
       cadenceMix: '70% event · 20% weekly · 10% monthly',
       min: 2, standard: 3, ideal: 4,
       note: 'Min: 2 người multi-LOB · Standard: 1/LOB · Ideal: thêm 1 senior dùng chung' },
-
-    { code: 'R6', layer: 'lob', name: 'CV Mở rộng Kênh vệ tinh',
-      span: 'S2', spanLabel: 'Practicing',
-      odCount: '8 OD per LOB',
-      cadenceMix: '60% daily · 30% weekly · 10% monthly',
-      min: 2, standard: 3, ideal: 5,
-      note: 'Min: 2 người multi-LOB · Standard: 1/LOB · Ideal: tách Community vs Affiliate'
+ 
+    { code: 'R6', layer: 'lob', name: 'CV Mở rộng Kênh vệ tinh & Inbound',
+      span: 'S2-S3', spanLabel: 'Practicing/Mastering',
+      odCount: '11 OD per LOB (Satellite + Inbound + Partnership)',
+      cadenceMix: '50% daily · 30% weekly · 20% monthly',
+      min: 2, standard: 3, ideal: 6,
+      note: 'Min: 2 người multi-LOB (dùng nhiều agency) · Standard: 1/LOB · Ideal: 2/LOB (1 Satellite + 1 Inbound Content) - Span S3 vì workload tăng với Inbound'
     },
-
+ 
     // SUPPORT (junior/intern)
     { code: 'JR', layer: 'support', name: 'Junior/Intern Digital (rotation)',
       span: 'S1', spanLabel: 'Forming',
@@ -1089,17 +1153,17 @@ const HEADCOUNT = {
     }
   ]
 };
-
+ 
 // Tính tổng
 ['min', 'standard', 'ideal'].forEach(scenario => {
   HEADCOUNT.scenarios[scenario].total = HEADCOUNT.roles.reduce((sum, r) => sum + r[scenario], 0);
 });
-
+ 
 const CADENCE_LABEL = {
   daily: 'Hằng ngày', weekly: 'Hằng tuần', monthly: 'Hằng tháng',
   quarterly: 'Hằng quý', event: 'Theo sự kiện'
 };
-
+ 
 // ============================================================================
 // RENDER OVERVIEW
 // ============================================================================
@@ -1117,7 +1181,7 @@ function renderOverview() {
       });
     });
   });
-
+ 
   let stats = `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:16px;">`;
   stats += `<div style="background:linear-gradient(135deg,#dbeafe,#ede9fe);padding:18px;border-radius:10px;text-align:center;"><div style="font-size:30px;font-weight:700;color:var(--brand);">${fcCount}</div><div style="font-size:12px;color:var(--text-soft);">Functional Chain</div></div>`;
   stats += `<div style="background:linear-gradient(135deg,#fed7aa,#fee2e2);padding:18px;border-radius:10px;text-align:center;"><div style="font-size:30px;font-weight:700;color:var(--warning);">${totalOM}</div><div style="font-size:12px;color:var(--text-soft);">Operation Module</div></div>`;
@@ -1125,7 +1189,7 @@ function renderOverview() {
   stats += `<div style="background:linear-gradient(135deg,#dbeafe,#cffafe);padding:18px;border-radius:10px;text-align:center;"><div style="font-size:30px;font-weight:700;color:var(--brand);">${dcomOD}</div><div style="font-size:12px;color:var(--text-soft);">OD do Dcom own</div></div>`;
   stats += `<div style="background:linear-gradient(135deg,#f1f5f9,#e2e8f0);padding:18px;border-radius:10px;text-align:center;"><div style="font-size:30px;font-weight:700;color:var(--text-soft);">${extOD}</div><div style="font-size:12px;color:var(--text-soft);">OD do team ngoài own</div></div>`;
   stats += `</div>`;
-
+ 
   let fcCards = '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:14px;">';
   Object.entries(FCS).forEach(([k, fc]) => {
     const omCount = fc.oms.length;
@@ -1144,7 +1208,7 @@ function renderOverview() {
       </div>`;
   });
   fcCards += '</div>';
-
+ 
   let dist = '<div style="margin-top:18px;background:white;padding:18px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">';
   dist += '<div class="section-title">Phân bổ số OD theo Role <small>OD = 1 role own duy nhất</small></div>';
   dist += '<div style="display:flex;flex-wrap:wrap;gap:10px;">';
@@ -1158,7 +1222,7 @@ function renderOverview() {
     </div>`;
   });
   dist += '</div></div>';
-
+ 
   return `<div class="fc-panel active" id="panel-overview">
     <div class="fc-header" style="border-left-color:var(--accent);">
       <h2>Tổng quan FC team Dcom</h2>
@@ -1167,7 +1231,7 @@ function renderOverview() {
     <div class="section">${stats}${fcCards}${dist}</div>
   </div>`;
 }
-
+ 
 // ============================================================================
 // RENDER SOA
 // ============================================================================
@@ -1184,14 +1248,14 @@ function renderSOA() {
       });
     });
   });
-
+ 
   let html = `<div class="fc-panel" id="panel-soa">
     <div class="fc-header" style="border-left-color:var(--success);">
       <h2>SOA — Sphere of Accountability theo Role Dcom</h2>
       <p class="purpose">SOA của mỗi role = tập hợp các OD mà role đó own (1 người duy nhất). Chỉ liệt kê các role trong team Dcom (R1-R6 + Team Lead Digital).</p>
     </div>
     <div class="soa-grid">`;
-
+ 
   ['R1','R2','R3','R4','R5','R6','TLD'].forEach(rc => {
     const role = ROLES[rc];
     const ods = soa[rc];
@@ -1207,18 +1271,18 @@ function renderSOA() {
     });
     html += `</ul></div>`;
   });
-
+ 
   html += `</div></div>`;
   return html;
 }
-
+ 
 // ============================================================================
 // RENDER FC PANEL
 // ============================================================================
 function renderFC(key) {
   const fc = FCS[key];
   if (!fc) return '';
-
+ 
   let flow = '<div class="om-flow">';
   fc.oms.forEach((om, i) => {
     const ownersSet = new Set();
@@ -1230,7 +1294,7 @@ function renderFC(key) {
     }).join('');
     const dcomOd = om.ods.filter(o => !o.external).length;
     const extOd = om.ods.filter(o => o.external).length;
-
+ 
     flow += `<div class="om-card" data-om="${om.code}">
       <div class="om-num">${om.code}</div>
       <div class="om-title">${om.name}</div>
@@ -1240,7 +1304,7 @@ function renderFC(key) {
     if (i < fc.oms.length - 1) flow += '<div class="om-arrow">→</div>';
   });
   flow += '</div>';
-
+ 
   let blocks = '';
   fc.oms.forEach(om => {
     let rows = '';
@@ -1254,7 +1318,7 @@ function renderFC(key) {
         : `<div class="ipo-line"><span class="ipo-tag ipo-i">I</span>${od.input}</div>
            <div class="ipo-line"><span class="ipo-tag ipo-p">P</span>${od.process}</div>
            <div class="ipo-line"><span class="ipo-tag ipo-o">O</span>${od.output}</div>`;
-
+ 
       rows += `<tr data-om="${om.code}" data-owner="${od.owner}" data-cadence="${od.cadence}" data-scope="${isExt?'ext':'dcom'}" ${isExt?'class="external-od"':''}>
         <td class="od-name">
           <div style="font-size:11px;color:var(--text-muted);margin-bottom:2px;">
@@ -1272,10 +1336,10 @@ function renderFC(key) {
         <td class="ipo">${ipo}</td>
       </tr>`;
     });
-
+ 
     const dcomCount = om.ods.filter(o => !o.external).length;
     const extCount = om.ods.filter(o => o.external).length;
-
+ 
     blocks += `<div class="om-block" data-om="${om.code}">
       <div class="om-block-header">
         <span class="om-code">${om.code}</span>
@@ -1292,7 +1356,7 @@ function renderFC(key) {
       </table>
     </div>`;
   });
-
+ 
   return `<div class="fc-panel" id="panel-${key}">
     <div class="fc-header">
       <span class="fc-code">${fc.code}</span>
@@ -1304,25 +1368,25 @@ function renderFC(key) {
         <span class="meta-pill">Cross-team: ${fc.crossTeam}</span>
       </div>
     </div>
-
+ 
     <div class="section">
       <div class="section-title">Sơ đồ OM trong FC <small>${fc.oms.length} Operation Module</small></div>
       ${flow}
     </div>
-
+ 
     <div class="section">
       <div class="section-title">Chi tiết OD theo OM <small>Dcom OD = IPO đầy đủ · OD ngoài Dcom = I + O ngắn gọn</small></div>
       ${blocks}
     </div>
   </div>`;
 }
-
+ 
 // ============================================================================
 // RENDER HEADCOUNT TAB
 // ============================================================================
 function renderHeadcount() {
   const sc = HEADCOUNT.scenarios;
-
+ 
   let summary = `<div class="hc-summary">
     <div class="hc-card" style="border-top-color:var(--text-muted);">
       <div class="hc-label">Kịch bản 1 · Tối thiểu (Lean)</div>
@@ -1340,12 +1404,12 @@ function renderHeadcount() {
       <div class="hc-detail">${sc.ideal.desc}</div>
     </div>
   </div>`;
-
+ 
   let rows = '';
   let totalMin = 0, totalStd = 0, totalIdeal = 0;
   let groupLayerTotal = { min: 0, standard: 0, ideal: 0 };
   let lobLayerTotal = { min: 0, standard: 0, ideal: 0 };
-
+ 
   // Group rows
   rows += `<tr style="background:var(--accent-soft);"><td colspan="7" style="font-weight:700;padding:10px 14px;color:var(--accent);">▸ TẦNG GROUP (tập trung — phục vụ toàn tập đoàn)</td></tr>`;
   HEADCOUNT.roles.filter(r => r.layer === 'group').forEach(r => {
@@ -1366,7 +1430,7 @@ function renderHeadcount() {
     <td class="hc-num-cell" style="color:var(--accent);">${groupLayerTotal.standard}</td>
     <td class="hc-num-cell" style="color:var(--accent);">${groupLayerTotal.ideal}</td>
     <td></td></tr>`;
-
+ 
   // LOB rows
   rows += `<tr style="background:var(--brand-soft);"><td colspan="7" style="font-weight:700;padding:10px 14px;color:var(--brand);">▸ TẦNG LOB (chuyên trách theo từng LOB — nhân ×3 LOB)</td></tr>`;
   HEADCOUNT.roles.filter(r => r.layer === 'lob').forEach(r => {
@@ -1387,7 +1451,7 @@ function renderHeadcount() {
     <td class="hc-num-cell" style="color:var(--brand);">${lobLayerTotal.standard}</td>
     <td class="hc-num-cell" style="color:var(--brand);">${lobLayerTotal.ideal}</td>
     <td></td></tr>`;
-
+ 
   // Support row
   rows += `<tr style="background:#f0fdf4;"><td colspan="7" style="font-weight:700;padding:10px 14px;color:var(--success);">▸ HỖ TRỢ (talent pipeline · S1 Forming)</td></tr>`;
   HEADCOUNT.roles.filter(r => r.layer === 'support').forEach(r => {
@@ -1402,7 +1466,7 @@ function renderHeadcount() {
       <td style="font-size:11px;color:var(--text-soft);">${r.note}</td>
     </tr>`;
   });
-
+ 
   // Grand total
   rows += `<tr class="hc-total-row">
     <td colspan="3" style="text-align:right;font-size:14px;padding:14px;">TỔNG HEADCOUNT TEAM DCOM (3 LOB):</td>
@@ -1411,7 +1475,7 @@ function renderHeadcount() {
     <td class="hc-num-cell" style="font-size:20px;">${totalIdeal}</td>
     <td></td>
   </tr>`;
-
+ 
   let methodologyHTML = `
     <div class="section" style="background:linear-gradient(135deg,#fef3c7,#fce7f3);">
       <div class="section-title">Phương pháp tính &amp; Giả định</div>
@@ -1442,7 +1506,7 @@ function renderHeadcount() {
         </div>
       </div>
     </div>`;
-
+ 
   let lobBreakdown = `
     <div class="section">
       <div class="section-title">Phân rã theo mô hình Hybrid <small>Group Center + LOB Specialist</small></div>
@@ -1459,7 +1523,7 @@ function renderHeadcount() {
         <tbody>${rows}</tbody>
       </table>
     </div>`;
-
+ 
   return `<div class="fc-panel" id="panel-headcount">
     <div class="fc-header" style="border-left-color:var(--accent);">
       <span class="fc-code" style="background:var(--accent);">HEADCOUNT</span>
@@ -1475,7 +1539,7 @@ function renderHeadcount() {
     ${methodologyHTML}
   </div>`;
 }
-
+ 
 // ============================================================================
 // MAIN RENDER
 // ============================================================================
@@ -1488,7 +1552,7 @@ function renderAll() {
   html += renderHeadcount();
   document.getElementById('panels').innerHTML = html;
 }
-
+ 
 function populateOMFilter(key) {
   const sel = document.getElementById('filter-om');
   sel.innerHTML = '<option value="">— Tất cả OM —</option>';
@@ -1501,7 +1565,7 @@ function populateOMFilter(key) {
     });
   }
 }
-
+ 
 function switchTab(target) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   const tabEl = document.querySelector(`.tab[data-fc="${target}"]`);
@@ -1509,7 +1573,7 @@ function switchTab(target) {
   document.querySelectorAll('.fc-panel').forEach(p => p.classList.remove('active'));
   const panel = document.getElementById('panel-' + target);
   if (panel) panel.classList.add('active');
-
+ 
   const filterBar = document.getElementById('filters-bar');
   if (target === 'overview' || target === 'soa' || target === 'headcount') {
     filterBar.style.display = 'none';
@@ -1520,7 +1584,7 @@ function switchTab(target) {
   resetFilters();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
+ 
 function applyFilters() {
   const roleVal = document.getElementById('filter-role').value;
   const omVal = document.getElementById('filter-om').value;
@@ -1528,13 +1592,13 @@ function applyFilters() {
   const cadVal = document.getElementById('filter-cadence').value;
   const activeView = document.querySelector('.fc-panel.active');
   if (!activeView) return;
-
+ 
   activeView.querySelectorAll('.om-card').forEach(card => {
     let show = true;
     if (omVal && card.dataset.om !== omVal) show = false;
     card.classList.toggle('dimmed', !show);
   });
-
+ 
   let hasVisibleOM = {};
   activeView.querySelectorAll('tbody tr[data-om]').forEach(row => {
     let show = true;
@@ -1554,12 +1618,12 @@ function applyFilters() {
     row.classList.toggle('hidden', !show);
     if (show) hasVisibleOM[row.dataset.om] = true;
   });
-
+ 
   activeView.querySelectorAll('.om-block').forEach(block => {
     block.classList.toggle('dimmed', !hasVisibleOM[block.dataset.om]);
   });
 }
-
+ 
 function resetFilters() {
   document.getElementById('filter-role').value = '';
   document.getElementById('filter-om').value = '';
@@ -1567,19 +1631,19 @@ function resetFilters() {
   document.getElementById('filter-cadence').value = '';
   applyFilters();
 }
-
+ 
 document.getElementById('tabs').addEventListener('click', e => {
   if (!e.target.classList.contains('tab')) return;
   switchTab(e.target.dataset.fc);
 });
-
+ 
 document.getElementById('filter-role').addEventListener('change', applyFilters);
 document.getElementById('filter-om').addEventListener('change', applyFilters);
 document.getElementById('filter-od').addEventListener('input', applyFilters);
 document.getElementById('filter-cadence').addEventListener('change', applyFilters);
-
+ 
 renderAll();
 document.getElementById('filters-bar').style.display = 'none';
 </script>
 </body>
-</html>
+</html
